@@ -7,7 +7,27 @@ body{
      font-family: sans-serif;
 }
     
+a{
+    text-decoration: none;
+    color: darkened;
+}
 
+
+/* Header*/
+header {
+    background: black;
+    color: white;
+    padding: 1em 2em;
+}
+
+header a {
+    color: white;
+}
+
+header {
+    display: grid;
+    grid-template-colums: 1fr 1fr;
+    align-items: center;
 
 
 
