@@ -26,8 +26,8 @@ header a {
 
 header {
     display: grid;
-    grid-template-colums: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-
+}
 
 
