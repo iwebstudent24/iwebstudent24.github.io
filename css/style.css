@@ -1,30 +1,13 @@
+/* Global */
+
+*{box-sizing: border-box;}
+
 body{
-    background-image:linear-gradient(red,orange,yellow,green,blue,purple);
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    display: grid;
-    align-content: center;
-    text-align: center;
-    min-height: 100vh;
+    margin: 0; 
+     font-family: sans-serif;
+}
+    
 
-}
 
-h1{
-    font-size: 48px;
-    font-family: cursive;
-    margin: 0;
-}
 
-p{
-    color: rgb(12, 12, 12);
-}
 
-ul {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 0;
-}
-li{
-    text-align: left;
-}
