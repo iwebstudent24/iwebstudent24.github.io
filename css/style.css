@@ -55,9 +55,13 @@ nav a {
 
 /* Footer*/
 footer {
-    boarder-top: 1px solid #ddd;
-    max-width: 100px;
+  
+    border-top: 1px solid #ddd;
+    max-width: 1000px;
     margin: 0 auto;
+}
+footer nav ul a{
+    color: red;
 }
 footer nav ul{
     justify-content: center;
@@ -66,7 +70,6 @@ footer nav ul{
 
 /* Sections*/
 main{
-    padding: 3em 1em;
     min-height: 80vh;
 }
 
