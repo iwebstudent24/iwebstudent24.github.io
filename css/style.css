@@ -61,7 +61,7 @@ footer {
     margin: 0 auto;
 }
 footer nav ul a{
-    color: red;
+    color:linear-gradient(red,orange,yellow,green,blue,violet,purple);
 }
 footer nav ul{
     justify-content: center;
