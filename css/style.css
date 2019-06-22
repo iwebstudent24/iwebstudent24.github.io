@@ -61,7 +61,7 @@ footer {
     margin: 0 auto;
 }
 footer nav ul a{
-    color:linear-gradient(red,orange,yellow,green,blue,violet,purple);
+    color:pink;
 }
 footer nav ul{
     justify-content: center;
@@ -84,7 +84,7 @@ section {
     display: grid;
     align-content: center;
     text-align: center;
-    background: darkred;
+    
     min-height: 50vh;
     color: white;
 }
@@ -117,6 +117,8 @@ section {
 }   
 /* Sub pages */
 .page-sub .hero {
-    background: #888;
+ background-image: url("https://picsum.photos/id/1062/1800/500");
+ background-position: center;
+ background-size: cover;
     min-height: 30vh;
 }
