@@ -84,7 +84,7 @@ section {
     display: grid;
     align-content: center;
     text-align: center;
-    background-color: linear gradient(red,orange,yellow,green,blue,violet,purple)
+    background-color: linear-gradient(red,orange,yellow,green,blue,violet,purple);
     min-height: 50vh;
     color: white;
 }
