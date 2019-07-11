@@ -142,7 +142,7 @@ section {
 
 /* UI GALLERY */
 .ui-designs {
-    text-aligns: center;
+    text-align: center;
 }
 .ui-designs img {
     max-width: 200px;
