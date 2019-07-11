@@ -139,3 +139,10 @@ section {
     opacity: .5;
     font-size: .8m;
 }
+
+/* UI GALLERY */
+.ui-designs {
+    text-aligns: center;
+}
+.ui-designs img {
+    max-width: 200px;
