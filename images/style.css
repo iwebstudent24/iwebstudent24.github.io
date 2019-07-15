@@ -15,13 +15,17 @@ a{
 
 /* Header*/
 header {
-    background: black;
+    background: white;
     color: white;
     padding: 1em 2em;
 }
 
+.page-home header {
+    background-color: transparent;
+}
+
 header a {
-    color:pink;
+    color:rgb(29, 206, 29);
 }
 
 header {
@@ -61,7 +65,7 @@ footer {
     margin: 0 auto;
 }
 footer nav ul a{
-    color:pink;
+    color:rgb(29, 206, 29);
 }
 footer nav ul{
     justify-content: center;
@@ -110,18 +114,39 @@ section {
     grid-column-gap: 1em;
 }
 
+.page-home .lists {
+    color:whitesmoke;
+}
+
 @media (max-width:767px) {
     .lists {
         grid-template-columns: 1fr 1fr;
     }
 }   
+
+.page-home  {
+    background-image: url("../images/plant-portrait.jpg");
+    background-position: center top;
+    background-size: cover;
+       
+   }
+
+.page-home .hero {
+    background-image: none;
+}
 /* Sub pages */
-.page-sub .hero {
+.page-about .hero {
  background-image: url("https://picsum.photos/id/1062/1800/500");
- background-position: center;
+ background-position: center top;
  background-size: cover;
     min-height: 30vh;
 }
+.page-blog .hero {
+    /* background-image: url("https://picsum.photos/id/1062/1800/500"); */
+    background-position: center;
+    background-size: cover;
+       min-height: 30vh;
+   }
 
 /* BLOG ARCHIVES */
 .blog-archives {
