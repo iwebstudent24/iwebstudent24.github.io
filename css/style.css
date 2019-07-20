@@ -171,3 +171,37 @@ section {
 }
 .ui-designs img {
     max-width: 200px;
+}
+
+.search input {
+    margin: 12px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.search input[type=search] {
+    width: 15px;
+    cursor: pointer;
+    color: transparent;
+}
+
+.search input[type=search]:hover {
+    background-color: lightgreen;
+}
+
+.search input[type=search]:focus {
+    animation: anything 3s;
+    width: 130px;
+}
+
+@keyframes anything {
+    from {
+        width:15px;
+        padding-left: 10px;
+    }
+
+    to {
+        width: 130px;
+        padding-left: 32px;
+    }
+}
